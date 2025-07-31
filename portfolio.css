@@ -24,8 +24,9 @@ top: 0px;
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
 #aboutme {
     padding:10px;
@@ -50,7 +51,7 @@ body {
     background-image: url("https://shorturl.at/1CSRX");
     background-size: cover;
     margin: top 20px;
-    width: 100%;
+    width: 100vw;
     display:block;
 }
 #skills h2 {
