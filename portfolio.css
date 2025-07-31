@@ -1,0 +1,144 @@
+#header{
+margin:0px;
+padding:10px;
+width: 100%;
+background-color: black;
+position: fixed;
+text-align: center;
+top: 0px;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin:auto 15px;
+
+}
+#header h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(68, 200, 224, 0.5);
+    font-size:30px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#aboutme {
+    padding:10px;
+    background-color: #418cdd; 
+    width: 100%;
+    display:block;
+    margin-top:15vh;
+
+}
+#aboutme h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#aboutme p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+    text-align: center;
+}
+#skills {
+    background-image: url("https://shorturl.at/1CSRX");
+    background-size: cover;
+    margin: top 20px;
+    width: 100%;
+    display:block;
+}
+#skills h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    padding: 25px;
+    color: white;
+}
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+#skills li {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 5px 0;
+    text-align: center;
+}
+#skills dt {
+    font-weight: bold;
+    font-size: 20px;
+    left: 30px;
+    text-align: center;
+}
+#Programming,#web,#tools,#Database {
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    
+
+}
+dl{
+    margin:0;
+}
+#project1,#project2{
+    display: inline-table;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-inline-start:5%;
+    background-color: #418cdd;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    width:30%;
+    height:50%;
+
+}
+#projects{
+    text-align: center;
+    background-image: url("https://shorturl.at/uNR1e");
+    background-size: cover;
+    font-size: 20px;
+    display:block
+}
+#projects h2 {
+    font-size: 24px;
+    color: white;
+    padding:5%;
+    margin:0;
+}
+#education {
+    background-image: url("https://shorturl.at/kQUpg");
+    background-size: cover;
+    padding: 20px;
+    font-size: 20px;
+}
+#education h2 {
+    text-align: center;
+    font-size: 24px;
+    margin:0;
+}
+#education ul {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#contact a {
+    color: white;
+    text-decoration: none;
+}
