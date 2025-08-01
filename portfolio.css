@@ -1,9 +1,9 @@
 #header{
 margin:0px;
 padding:10px;
-width: 100%;
+width: 100vw;
 background-color: black;
-position: fixed;
+position:fixed;
 text-align: center;
 top: 0px;
 }
@@ -27,13 +27,22 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    
 }
+html{
+    overflow-x: hidden;
+    width: 100vw;
+    scrollbar-color: black orange;
+}
+
 #aboutme {
     padding:10px;
     background-color: #418cdd; 
-    width: 100%;
-    display:block;
-    margin-top:15vh;
+    background-size: cover;
+    width: 100vw;
+    padding-top: 120px;;
+    
+
 
 }
 #aboutme h2 {
@@ -49,6 +58,7 @@ body {
 }
 #skills {
     background-image: url("https://shorturl.at/1CSRX");
+    background-size: auto;
     background-size: cover;
     margin: top 20px;
     width: 100vw;
@@ -91,8 +101,7 @@ dl{
 #project1,#project2{
     display: inline-table;
     border-radius: 20px;
-    margin-top: 5%;
-    margin-inline-start:5%;
+
     background-color: #418cdd;
     padding: 20px;
     text-align: center;
@@ -100,6 +109,7 @@ dl{
     font-size: 18px;
     width:30%;
     height:50%;
+    margin-bottom: 10%;
 
 }
 #projects{
@@ -107,7 +117,13 @@ dl{
     background-image: url("https://shorturl.at/uNR1e");
     background-size: cover;
     font-size: 20px;
-    display:block
+    width: 100vw;
+}
+#projects #flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
 }
 #projects h2 {
     font-size: 24px;
@@ -120,6 +136,7 @@ dl{
     background-size: cover;
     padding: 20px;
     font-size: 20px;
+    width: 100vw;
 }
 #education h2 {
     text-align: center;
@@ -131,6 +148,10 @@ dl{
     list-style-type: none;
     
 }
+#photo {
+    display:block;
+    text-align: center;
+}
 
 #contact {
     background-color: black;
@@ -138,6 +159,7 @@ dl{
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    width:100vw;
 }
 #contact a {
     color: white;
